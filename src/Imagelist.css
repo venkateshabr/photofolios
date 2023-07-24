@@ -1,0 +1,95 @@
+.imagelist-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:70%;
+    margin: auto;
+    align-items: center;
+    padding-top: 20px;
+   
+}
+.imagelist-header img{
+    height:30px;
+    width:30px;
+}
+.downimage{
+    position: relative;
+    left:-100px;
+    top:24px;
+    
+}
+.downimage2{
+    position:relative;
+    left:-160px;
+    top:25px;
+   
+}
+.inputimagelist{
+   position: relative;
+   left:-170px;
+   top:18px;
+   
+}
+#newbutton{
+    position: relative;
+    top:-8px;
+    margin-left :20px;
+    
+}
+.newimagecontent .mainimg{
+    height:100px;
+    width:90%;
+    padding: 7px;
+    object-fit: cover;
+}
+.newimagecontent:hover  span {
+    background-color: #eeeeee;
+}
+.newimagecontent:hover   {
+    border-color: #eeeeee;
+}
+.newspanele{
+    display: inline-block;
+    height: 21%;
+}
+.albumbody2{
+    display: grid;
+    grid-template: repeat(1, 175px)/repeat(5,1fr);
+    width:70%;
+    gap:30px;
+    padding-top: 20px;
+    margin:auto;
+    align-items: center;
+    height:100%;
+    flex-flow: row nowrap;
+
+}
+.spinner{
+    margin: auto;
+    margin-top: 50%;
+    margin-left: 200%;
+}
+.newimagecontent{
+    position:relative;
+}
+.editbutton{
+    position:absolute;
+    top:-50px;
+    left:30px;
+    visibility: hidden;
+}
+.deletebutton{
+    position:absolute;
+   
+    top:-50px;
+    left:100px;
+    visibility: hidden;
+}
+
+.newimagecontent:hover .editbutton{
+    visibility :visible;
+}
+.newimagecontent:hover .deletebutton{
+    visibility :visible;
+}
+

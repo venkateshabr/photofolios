@@ -1,0 +1,34 @@
+
+.imageform-container{
+    margin: 30px 300px 10px;
+    background-color: #f4f4f4;
+    border-radius: 20px; 
+    box-shadow: 2px 1px lightgray;
+    padding: 20px;
+  
+}
+.imageform{
+    display: flex;
+   flex-direction: column;
+    gap:10px;
+   justify-content: center;
+   padding-bottom: 20px;;
+}
+.imageform button{
+    height:40px;
+    width:80px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+}
+.imageform input{
+    border: none;
+    border-radius: 25px;
+    flex:1;
+    padding: 15px;
+    outline-color: blue;
+    margin-left: 10px;
+    font-size: larger;
+}

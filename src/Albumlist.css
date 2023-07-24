@@ -1,0 +1,67 @@
+.albumlist{
+    display: flex;
+    flex-direction: column;
+}
+.album-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    margin: auto;
+}
+.addalbum{
+    height:30px;
+    width: 90px;
+    color: #0077ff;
+    font-weight: 600;
+    border-color: #0077ff;
+}
+.cancelred{
+    height:30px;
+    width: 90px;
+    color: red;
+    font-weight: 600;
+    border-color: red;
+}
+.element{
+    height:100%;
+    width: 100%;
+    border:5px solid #eeeeee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+.element:hover span{
+    background-color: #0077ff;
+  
+}
+.element:hover {
+    border-color: #0077ff;
+}
+.element img{
+    padding: 35px;
+    height:50px;
+}
+.element span{
+    background-color: #eeeeee;
+    display: inline-block;
+    height: 21%;
+    width:95%;
+    padding: 5px;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+   
+}
+.albumbody{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width:70%;
+    gap:30px;
+    padding-top: 20px;
+    margin:auto;
+    align-items: center;
+    height:100%;
+    flex-flow: row nowrap
+}

@@ -1,0 +1,49 @@
+.albumform-container{
+    margin: 30px 300px 10px;
+    background-color: #f4f4f4;
+    border-radius: 20px; 
+    box-shadow: 2px 1px lightgray;
+    padding: 20px;
+  
+}
+.albumform{
+    display: flex;
+    gap:10px;
+   justify-content: center;
+   padding-bottom: 20px;;
+}
+.albumform button{
+    height:40px;
+    width:80px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+}
+.clearbutton{
+    background-color: red;
+}
+.createbutton{
+    background-color: #0077ff;
+}
+.albumform input{
+    border: none;
+    border-radius: 25px;
+    flex:0.8;
+    padding: 15px;
+    outline-color: blue;
+    margin-left: -40px;
+    font-size: larger;
+}
+.albumform-container h1{
+   
+    text-align: left;
+    margin-left: 10px;
+}
+
+.albumbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

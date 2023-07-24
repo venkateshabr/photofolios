@@ -1,0 +1,43 @@
+.carousel{
+  background-color: rgba(0,0,0,0.5);
+  inset: 0;
+  z-index: 999;
+  position: fixed;
+  cursor: pointer;
+ 
+  
+
+}
+.mainimg{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+}
+.imgtag{
+  height: 80%;
+  width: 60vw;
+  object-fit: contain;
+}
+.iconaction{
+  position: absolute;
+  top:50%;
+  width:30px;
+  height: 30px;
+}
+.backward{
+  left:10%;
+}
+.forward{
+  right:10%;
+}
+
+.close{
+  position:absolute;
+  height: 30px;
+  width:30px;
+  top:10%;
+  right: 10%;
+}

@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    background-color:#a0a0f9 ;
+    padding-left: 50px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    height:60px;
+}
+.navbar img{
+    height:40px;
+    width:40px;
+   
+}
